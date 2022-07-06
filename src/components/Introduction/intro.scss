@@ -1,0 +1,30 @@
+.backPhoto {
+    background-image: url("../Images/belli.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profilePic {
+    width: 10%;
+    position: relative;
+}
+
+.show-items {
+    position: absolute;
+    opacity: 1;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+    color: #fff;
+    padding: 20px;
+
+    a {
+        padding: 8px;
+        color: #fff;
+    }
+
+}
