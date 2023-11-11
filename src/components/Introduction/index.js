@@ -18,7 +18,7 @@ class Introduction extends Component {
                 <div className="show-items">
                     <Image className="profilePic" src={profile} alt="No Picture Found" roundedCircle />
                     <h1>Aidan Thomas Spelman</h1>
-                    <h5>Incoming Software Development Engineer @Amazon</h5>
+                    <h5>Software Development Engineer @ Amazon AWS</h5>
                     <Button variant="outline-light">Contact Me</Button>
                     <div className="mt-4">
                         <a href="https://github.com/dryercashew"

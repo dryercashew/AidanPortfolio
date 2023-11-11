@@ -15,9 +15,9 @@ const data = [
         cardSubtitle: "In June of 2022, I graduated from Western Washington University with a Bachelors in Computer Science and a Minor in Mathematics"
     },
     {
-        title: "August 2022 - Future",
+        title: "August 2022 - Present",
         cardTitle: "SDE at Amazon",
-        cardSubtitle: "Starting in August of 2022, I will be working as a Software Development Engineer at Amazon"
+        cardSubtitle: "Beginning in August 2022, I have been a developer on the AWS Kinesis Data Streams team"
     }
 ]
 

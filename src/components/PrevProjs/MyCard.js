@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap"
 class MyCard extends Component {
     render () {
         return (
-            <Card className="m-2" style={{width: "31%"}}>
+            <Card className="m-2 project-card">
                 <Card.Img variant="top" src={this.props.img} />
                 <Card.Body>
                     <Card.Title>{this.props.title}</Card.Title>

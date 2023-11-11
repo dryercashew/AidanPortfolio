@@ -3,13 +3,14 @@ import sideImg from "../Images/photoSide.jpg"
 import "./about.scss"
 import ProjBar from "./ProjBar";
 import skills from "./Skills"
+import MediaQuery from 'react-responsive'
 
 const mySkills = skills.map(item => <ProjBar level={item.level} title={item.title}/>)
 
 class AboutMe extends Component {
     render() {
         return (
-            <div className="aboutDiv container p-4">
+            <div className="about-me-container container p-4">
                 <div className="m-4 text-right">
                     <h2>Who I Am</h2>
                     <h5>Hello, I'm Aidan Spelman, a computer programmer around the Seattle, WA area who is an incoming SDE at Amazon. I have a Bachelors in Computer Science with a Minor in Mathematics. Feel free to reach out to me or take a look at some of my previous work! </h5>
@@ -21,8 +22,7 @@ class AboutMe extends Component {
                     <h3>My Skills</h3>
                     {mySkills}
                 </div>
-                
-            </div>
+            </div>    
         )
     }
 }

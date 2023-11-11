@@ -10,12 +10,10 @@ class PrevProjs extends Component {
         return (
             <div className="container">
                 <h2 className="text-center m-4">MY PREVIOUS PROJECTS</h2>
-                <div className="display-cards">
+                <div className="prev-projects-container">
                     {myMap}
                 </div>
             </div>
-            
-            
         )
     }
 }

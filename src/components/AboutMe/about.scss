@@ -1,8 +1,24 @@
-.aboutDiv {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1.5fr;
 
-    img {
-        width: 300px;
+/* Media query for screens larger than 768px (typical desktop devices) */
+@media (min-width: 769px) {
+    .about-me-container {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1.5fr;
+    
+        img {
+            width: 300px;
+        }
+    }   
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    .about-me-container {
+        display: grid;
+        grid-template-columns: 1.5fr;
+
+        img {
+            width: 300px;
+        }
     }
 }
