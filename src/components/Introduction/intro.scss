@@ -1,10 +1,4 @@
-.backPhoto {
-    background-image: url("../Images/belli.jpg");
-    height: 60vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 
 .profilePic {
     width: 10%;
@@ -12,19 +6,68 @@
 }
 
 .show-items {
-    position: absolute;
-    opacity: 1;
-    top: 30%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    border-radius: 2px;
-    color: #fff;
-    padding: 20px;
+    
 
-    a {
-        padding: 8px;
+}
+
+/* Media query for screens larger than 768px (typical desktop devices) */
+@media (min-width: 769px) {
+    .show-items {
+        position: absolute;
+        opacity: 1;
+        top: 30%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        border-radius: 2px;
         color: #fff;
-    }
+        padding: 20px;
 
+        a {
+            padding: 8px;
+            color: #fff;
+        }
+    }   
+
+    .backPhoto {
+        background-image: url("../Images/belli.jpg");
+        height: 60vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    .show-items {
+        position: absolute;
+        opacity: 1;
+        top: 30%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        border-radius: 2px;
+        color: #fff;
+        padding: 20px;
+        height: 300px;
+
+        img {
+            height: 50px;
+            width: 50px;
+        }
+
+        a {
+            padding: 8px;
+            color: #fff;
+        }
+    } 
+
+    .backPhoto {
+        background-image: url("../Images/belli.jpg");
+        height: 70vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
